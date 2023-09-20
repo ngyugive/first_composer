@@ -1,0 +1,20 @@
+{
+  "name": "mason_steven_ng/first_composer",
+  "description": "first composer",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mason",
+      "email": "yugive_wu@163.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mason\\MyFirstComposer\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
